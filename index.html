@@ -3,38 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <title>7 супер секретов книга</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/style.css">
     <style>
+        @font-face {
+            font-family: 'UniSansHeavyCAPS';
+            src: url('fonts/UniSansHeavyCAPS.eot');
+            src: url('fonts/UniSansHeavyCAPS.eot') format('embedded-opentype'),
+                 url('fonts/UniSansHeavyCAPS.woff2') format('woff2'),
+                 url('fonts/UniSansHeavyCAPS.woff') format('woff'),
+                 url('fonts/UniSansHeavyCAPS.ttf') format('truetype'),
+                 url('fonts/UniSansHeavyCAPS.svg#UniSansHeavyCAPS') format('svg');
+        } 
+        @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&subset=latin,cyrillic);
+        .container {
+            background: #f0f0f0;
+        }
+        body {
+            background: url('./img/Gray-Textured-Background-150x150.jpg');
+        }
         .whiteOnBlack {
             color: #fff;
             background-color: #000;
+            margin: 0;
+        }
+        h1 {
+/*            font-weight: bold;*/
+/*            font-family: 'UniSansHeavyCAPS';*/
+            font-family: 'PT Sans Narrow', sans-serif;
+            font-size: 50px;
+            color: #dca517;
+        }
+        h2 {
+            font-style: italic;
+        }
+        iframe {
+            width: 420px;
+            height: 315px;
+        }
+        .thisBook {
+            font-size: 22px;
+        }
+        .thisBook p {
+            text-align: center;
+        }
+        .form-control {
+            width: 300px;
+        }
+        .btn-lg, .btn-group-lg > .btn {
+            font-size: 34px;
+        }
+        .form-group > label {
+            margin-right: 185px;
+        }
+        footer {
+            background: #898989;
+            margin-top: 100px;
+            padding-top: 30px;
+        }
+        footer > a {
+            color: #333;
         }
     </style>
 </head>
-<body class="container"> <!--960px-->
-    <div class="row">
-        <div class="col-md-12 whiteOnBlack">
-            <p class="text-center">Эксклюзивная книга бестселлер способная помочь раз и навсегда разобратся с “разводом” в больших супермаркетах</p>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 whiteOnBlack">
+                <p class="text-center">Эксклюзивная книга бестселлер способная помочь раз и навсегда разобратся с “разводом” в больших супермаркетах</p>
+            </div>
         </div>
+        <header class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Как не стать лохом, покупая в больших супермаркетах?</h1>
+                <hr>
+                <h2 class="text-center">Узнайте 7 самых секретных вещей от главного директора розничной сети побывавшем во всех “шкурах” начиная с продавца-консультанта</h2>
+            </div>
+        </header>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <iframe class="center-block" src="https://www.youtube.com/embed/JbYGPn3Ain4" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 text-center thisBook">
+                <p>Эта книга бестселлер находится в <br> БЕСПЛАТНОМ доступе еще:</p>
+                <div>
+                    <script type="text/javascript" src="http://timegenerator.ru/s/cc096d73031fef69f19fd8e78aa3dd7a.js"></script>
+                </div>
+                <br>
+                <p>Чтобы скачать БЕСПЛАТНО книгу ПРЯМО СЕЙЧАС <br> введите свои данные в эту форму и нажмите <br> кнопку “СКАЧАТЬ”</p>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label><input type="text" id="name" placeholder="Пример: Иван" class="form-control center-block">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваше имя:</label><input type="email" id="email" placeholder="example@gmail.com" class="form-control center-block">
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-info btn-lg">СКАЧАТЬ КНИГУ</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class="row text-center">
+            <a href="#">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+            <p>ОГРН</p>
+        </footer>        
     </div>
-    <header class="row">
-        
-    </header>
-    <section class="row">
-        
-    </section>
-    <section class="row">
-        
-    </section>
-    <footer class="row">
-        
-    </footer>
 </body>
-    <!-- Latest compiled and minified JavaScript -->
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>-->
 </html>
